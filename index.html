@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
     <title>cupcake</title>
   </head>
   <body>
@@ -20,7 +28,9 @@
         <div class="main-information__phone">
           <img src="./imgs/phone.svg" alt="phone" />
           <div class="phone__info">
-            <span class="info__number">8 (812) 844-95-49</span>
+            <a class="phone__number" href="tel:88128449549"
+              >8 (812) 844-95-49</a
+            >
             <p class="info__clarification">Ежедневно с 9:00 до 20:00</p>
           </div>
         </div>
@@ -305,7 +315,12 @@
             Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания
           </p>
           <div class="callback__form">
-            <input type="number" placeholder="Номер телефона" required />
+            <input
+              type="tel"
+              name="tel"
+              pattern="2[0-9]{3}-[0-9]{3}"
+              required
+            />
             <button class="form__button main-button">Сделать заказ</button>
           </div>
           <input type="chexkbox" /> Нажамая на кнопку, вы соглашаетесь с
@@ -317,7 +332,9 @@
       <a href="#" class="footer__link">Согласие на обработку данных</a>
       <a href="#" class="footer__link">Служба поддержки</a>
       <a href="#" class="footer__link">Политика конфиденциальности</a>
-      <p class="footer__text">© nazvaniesaita.ru, 2054 | Название компании или ИП ОГРН 0000000000000</p>
+      <p class="footer__text">
+        © nazvaniesaita.ru, 2054 | Название компании или ИП ОГРН 0000000000000
+      </p>
     </footer>
   </body>
 </html>
