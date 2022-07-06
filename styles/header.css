@@ -1,0 +1,47 @@
+.page__header{
+  background-image: url(../imgs/bg/header.png);
+}
+
+.header{
+  border-bottom: 1px solid #7E868E;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header__main-information {
+  display: flex;
+  align-items: center;
+  gap: 88px;
+}
+
+.logo {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.main-information__phone,
+.main-information__location {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+}
+
+.main-information__location {
+  font-weight: 300;
+  font-size: 0.75em;
+}
+
+.phone__number {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.info__clarification {
+  font-size: 0.80rem;
+  font-weight: 300;
+}
