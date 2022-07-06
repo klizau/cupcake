@@ -1,8 +1,16 @@
-html {
+body {
   background-color: #081130;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  padding: 370px 47px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 47px 372px;
+  margin: 0;
 }
 
 a {
@@ -21,6 +29,7 @@ h1,
 h2,
 h3,
 a,
+p,
 button,
 li,
 ul,
