@@ -1,0 +1,54 @@
+.catalog {
+  background-color: white;
+}
+
+.catalog__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.catalog__list__item {
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #F2F6FA;
+}
+
+.catalog__img{
+  width: 100%;
+  height: auto;
+
+}
+
+.item__text {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 50px 89px 50px 44px;
+  width: 55%;
+}
+
+.list__item__title {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.list__item__description {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.list__item__price {
+  font-size:2em;
+  font-weight: 500;
+}
+
+.list__item__button {
+  background-color: #FED84C;
+  color: inherit;
+  padding: 20px 40px;
+  font-size: 1.8em;
+  font-weight: 500;
+  border-radius: 10px;
+  width:80%;
+}

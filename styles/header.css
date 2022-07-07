@@ -1,5 +1,7 @@
 .page__header{
   background-image: url(../imgs/bg/header.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .header{
@@ -20,7 +22,7 @@
 }
 
 .logo {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: 400;
 }
 
@@ -42,6 +44,6 @@
 }
 
 .info__clarification {
-  font-size: 0.80rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
