@@ -1,0 +1,35 @@
+.banner__caontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 24px;
+  color: white;
+  width: 55%;
+  padding-top: 188px;
+  padding-bottom: 465px;
+}
+
+.banner__title {
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.banner__text {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.banner__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-button__text {
+  font-size: 0.93em;
+  font-weight: 300;
+  line-height: 160%;
+}
