@@ -11,13 +11,12 @@
 .catalog__list__item {
   border-radius: 10px;
   width: 100%;
-  border: 1px solid #F2F6FA;
+  border: 1px solid #f2f6fa;
 }
 
-.catalog__img{
+.catalog__img {
   width: 100%;
   height: auto;
-
 }
 
 .item__text {
@@ -28,27 +27,27 @@
 }
 
 .list__item__title {
-  font-size: 2em;
+  font-size: 24px;
   font-weight: 600;
 }
 
 .list__item__description {
-  font-size: 1.5em;
+  font-size: 16px;
   font-weight: 300;
   line-height: 160%;
 }
 
 .list__item__price {
-  font-size:2em;
+  font-size: 24px;
   font-weight: 500;
 }
 
 .list__item__button {
-  background-color: #FED84C;
+  background-color: #fed84c;
   color: inherit;
   padding: 20px 40px;
-  font-size: 1.8em;
+  font-size: 18px;
   font-weight: 500;
   border-radius: 10px;
-  width:80%;
+  width: 80%;
 }

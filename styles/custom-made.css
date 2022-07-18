@@ -9,7 +9,7 @@
   align-items: flex-end;
   justify-content: space-between;
   padding-top: 700px;
-  padding-bottom: 700px;
+  padding-bottom: 800px;
 }
 
 .custom-made__caontainer__text {
@@ -27,5 +27,5 @@
 .custom-made__text {
   padding-bottom: 24px;
   color: white;
-  font-size: 1.5em;
+  font-size: 21px;
 }
