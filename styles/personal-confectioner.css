@@ -3,10 +3,12 @@
 }
 
 .personal-confectioner__caontainer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
-  padding-top: 200px;
+  align-items: start;
+  justify-content: space-between;
+  padding-top: 50px;
   padding-bottom: 200px;
 }
 
@@ -14,24 +16,85 @@
   margin: 0;
   padding: 24px 0;
   text-align: start;
+  justify-content: start;
 }
 
 .pros__item {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   font-size: 18px;
-  width: 50%;
+  width: 60%;
   position: relative;
 }
 
-.personal-confectioner__questionnaire {
-  display: flex;
-  left: 50%;
-  top: 50%;
-  background-position: 100%;
-  background-size: 100%;
-  height: 100%;
-  width: 100%;
+.personal-confectioner__profile {
+  position: relative;
 }
 
-.personal-confectioner__profile {
+.profile__card {
+  position: absolute;
+  top: 75%;
+}
+
+.profile__name {
+  position: relative;
+  z-index: 2;
+  position: relative;
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  padding: 15px 0;
+  background-color: #2e363e;
+}
+
+.profile__name::before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 100%;
+  left: -23px;
+  top: 0;
+  background: url(../imgs/corner-dark.svg) 0 0 / contain no-repeat;
+}
+.profile__name::after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 100%;
+  right: -22px;
+  top: 0;
+  transform: rotate(180deg);
+  background: url(../imgs/corner-dark.svg) 0 0 / contain no-repeat;
+}
+
+.profile__position {
+  position: relative;
+  z-index: 2;
+  position: relative;
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  color: #2e363e;
+  padding: 15px 0;
+  background-color: #f2f6fa;
+}
+
+.profile__position::before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 100%;
+  left: -23px;
+  top: 0;
+  background: url(../imgs/corner-light.svg) 0 0 / contain no-repeat;
+}
+.profile__position::after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 100%;
+  right: -22px;
+  top: 0;
+  transform: rotate(180deg);
+  background: url(../imgs/corner-light.svg) 0 0 / contain no-repeat;
 }

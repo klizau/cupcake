@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  padding: 47px 372px;
+  padding: 47px 350px;
   margin: 0;
 }
 
@@ -44,14 +44,15 @@ ul {
 }
 
 li {
-  margin-left: 12px;
+  margin-left: 20px;
 }
 
 li::before {
   content: "";
   position: absolute;
-  bottom: 60px;
-  left: -20px;
+  left: -15px;
+  top: 50%;
+  transform: translate(-50%);
   width: 10px;
   height: 10px;
   border: 1px solid #5d6afb;
