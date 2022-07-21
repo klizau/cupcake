@@ -1,0 +1,23 @@
+.promotion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.promotion__title{
+  margin-bottom: 14px;
+}
+
+.promotion__text{
+  font-size: 24px;
+  margin-bottom: 80px;
+}
+
+.photos__list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 9px;
+  width: 100%;
+}
