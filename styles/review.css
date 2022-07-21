@@ -1,3 +1,60 @@
-.review{
+.review {
+  background-image: url(../imgs/bg/Отзывы.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review__item {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
   background-color: white;
+  color: #2e363e;
+  padding: 76px 142px;
+  width: 60%;
+}
+
+.review__text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.review__title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.review__text {
+  font-size: 15px;
+}
+
+.read-more {
+  color: #4a94ff;
+  border-bottom: 1px dashed #4a94ff;
+}
+
+.review__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.review__profile__name {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.review__profile__city {
+  font-size: 16px;
+  color: #a6aeb6;
 }
