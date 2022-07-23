@@ -19,8 +19,10 @@
     <link rel="stylesheet" href="styles/custom-made.css" />
     <link rel="stylesheet" href="styles/personal-confectioner.css" />
     <link rel="stylesheet" href="styles/review.css" />
-    <link rel="stylesheet" href="styles/swiper-slide.css">
-    <link rel="stylesheet" href="styles/promotion.css">
+    <link rel="stylesheet" href="styles/swiper-slide.css" />
+    <link rel="stylesheet" href="styles/promotion.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
@@ -54,8 +56,12 @@
         </div>
       </div>
 
-      <div class="header__banner">
-        <div class="container banner__caontainer">
+
+    </header>
+
+    <main class="page__main">
+      <section class="banner">
+        <div class="container banner__container">
           <button
             type="button"
             class="banner__additional-button additional-button"
@@ -81,11 +87,8 @@
             </p>
           </div>
         </div>
-      </div>
-    </header>
-
-    <main class="page__main">
-      <section class="catalog">
+      </section>
+<!--       <section class="catalog">
         <div class="container catalog__caontainer">
           <h2 class="catalog__title section__title section__title--black">
             Для любых событий и дорогих вам людей
@@ -254,9 +257,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="custom-made">
+      <!-- <section class="custom-made">
         <div class="container custom-made__caontainer">
           <div class="custom-made__caontainer__text">
             <button class="custom-made__additional-button additional-button">
@@ -275,9 +278,9 @@
             </button>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="personal-confectioner">
+      <!-- <section class="personal-confectioner">
         <div class="container personal-confectioner__caontainer">
           <div class="personal-confectioner__text">
             <button
@@ -325,9 +328,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="review">
+     <!--  <section class="review">
         <h2 class="section__title section__title--white review__title">
           Почитайте отзывы довольных клиентов
         </h2>
@@ -413,9 +416,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="promotion">
+      <!-- <section class="promotion">
         <h2 class="section__title section__title--black promotion__title">
           Сделали более 3.000 заказов за 2 года
         </h2>
@@ -433,11 +436,11 @@
           <img class="photos-img" src="./imgs/instagram/8.png" alt="8" />
           <img class="photos-img" src="./imgs/instagram/9.png" alt="9" />
         </div>
-      </section>
+      </section> -->
 
-      <section class="callback">
+      <!-- <section class="callback">
         <div class="container callback__container">
-          <form>
+          <form class="form">
             <p class="callback__title">
               Чтобы сделать заказ, укажите ваш телефон
             </p>
@@ -446,33 +449,36 @@
             </p>
             <div class="callback__form">
               <input
+                class="tel"
                 type="tel"
                 name="phone_number"
                 list="tel-list"
-                placeholder="+7 (900) 123-45-67"
+                placeholder="Номер телефона"
                 pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
               />
               <button class="form__button main-button">Сделать заказ</button>
             </div>
-            <input type="chexkbox" /> Нажамая на кнопку, вы соглашаетесь с
-            <a href="#"> условиями обработки персональных данных </a>
+            <div class="personal-agreement">
+              <input class="checkbox" type="checkbox" /> Нажамая на кнопку, вы
+              соглашаетесь с
+              <a href="#" class="personal-agreement__link">
+                условиями обработки персональных данных
+              </a>
+            </div>
           </form>
         </div>
       </section>
-    </main>
-    <footer class="page__footer">
-      <a href="#" class="footer__link">Согласие на обработку данных</a>
-      <a href="#" class="footer__link">Служба поддержки</a>
-      <a href="#" class="footer__link">Политика конфиденциальности</a>
+    </main> -->
+   <!--  <footer class="page__footer">
+      <div class="footer__link">
+        <a href="#" class="footer__link__item">Согласие на обработку данных</a>
+        <a href="#" class="footer__link__item">Служба поддержки</a>
+        <a href="#" class="footer__link__item">Политика конфиденциальности</a>
+      </div>
       <p class="footer__text">
         © nazvaniesaita.ru, 2054 | Название компании или ИП ОГРН 0000000000000
       </p>
-    </footer>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
+    </footer> -->
     <script>
       var swiper = new Swiper(".mySwiper", {
         effect: "coverflow",
@@ -491,5 +497,10 @@
         },
       });
     </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
   </body>
 </html>

@@ -1,11 +1,11 @@
-.page__header{
-  background-image: url(../imgs/bg/header.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+.page__header {
+  position: absolute;
+  width: 100%;
 }
 
-.header{
-  border-bottom: 1px solid #7E868E;
+.header {
+  padding: 40px 0;
+  border-bottom: 1px solid #7e868e;
 }
 
 .header__container {
